@@ -7,6 +7,7 @@ class RunInformation:
     name: str
     trigger_mode: str
     data_format: str
+    beam_momentum_GeV: Optional[float] = None # put momentum in GeV
     trigger_channels: Optional[Union[Tuple, int]] = None
     thresholds: Optional[Dict[int, float]] = None
     comment: Optional[str] = None
